@@ -7,7 +7,7 @@ const URL = process.env.DB;
 const app = express();
 
 app.use(cors({
-    origin: "https://dapper-mousse-d7934c.netlify.app",
+    origin: "*",
 }))
 
 app.use(express.json());
